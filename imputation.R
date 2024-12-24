@@ -43,3 +43,5 @@ densityplot(imputed) # diagnostics
 
 # Save imputed data sets
 imp_long_final <- complete(imputed, action = 'long', include = TRUE)
+
+# Note: After imputation (i.e., regardless of additional data wrangling) ensure that the imputed datasets are in the mids object format before pooling the estimates.
